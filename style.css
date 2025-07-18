@@ -3,7 +3,7 @@ body{
     background-color: white;
     align-content: center;
     margin-top: 100px;
-     background: linear-gradient(to right, #4facfe, #00f2fe);
+    /*background: linear-gradient(to right, #4facfe, #00f2fe);*/
 }
 h1{
     margin-left: 250px;
@@ -23,6 +23,10 @@ h3{
     color: white;
      padding: 15px 30px;      
     font-size: 18px;  
+    cursor: pointer;
+}
+.website:hover{
+    opacity: 0.8;
 }
 .call{
     margin-left: 15px;
@@ -31,6 +35,10 @@ h3{
     color: white;
     padding: 15px 30px;      
     font-size: 18px;   
+    cursor: pointer;
+}
+.call:hover{
+    opacity: 0.8;
 }
 .trusted{
     margin-left: 250px;
